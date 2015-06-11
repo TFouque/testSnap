@@ -36,7 +36,7 @@ public class LoginActivity extends Activity {
 		pass = (EditText) findViewById (R.id.passwrd);
 		String passd = pass.getText().toString();
 		Log.d("SNAP",passd);
-		Intent intent = new Intent(this, MessagerieActivity.class);
+		Intent intent = new Intent(this, FormationCameraActivity.class);
 		Log.d("SNAP","test");
 		Toast.makeText(getApplicationContext(), (String) log, Toast.LENGTH_SHORT).show();
 		Toast.makeText(getApplicationContext(), (String) passd, Toast.LENGTH_SHORT).show();
